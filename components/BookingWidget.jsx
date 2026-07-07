@@ -8,7 +8,7 @@ import { sessions, calLink, CAL_BRAND_COLOR } from "@/lib/booking";
 // below — visitors choose and book without ever leaving the site. Only
 // rendered when CAL_CONFIGURED is true (the page handles the fallback).
 export default function BookingWidget() {
-  // Preselect a session if the URL carries one, e.g. /book#cbt-session
+  // Preselect a session if the URL carries one, e.g. /book#cbt-therapy-programme
   const [active, setActive] = useState(sessions[0].slug);
 
   useEffect(() => {

@@ -30,7 +30,7 @@ const PLANS = [
       "Access to the online support group",
       "Ongoing guidance and encouragement",
     ],
-    slug: "wellbeing-30",
+    slug: "guided-wellbeing",
   },
   {
     name: "CBT Therapy Programme",
@@ -44,7 +44,7 @@ const PLANS = [
       "Access to the online support group",
       "Regular monitoring and review of progress",
     ],
-    slug: "cbt-session",
+    slug: "cbt-therapy-programme",
     featured: true,
   },
   {
@@ -58,7 +58,7 @@ const PLANS = [
       "Access to the online support group",
       "Ongoing support and accountability",
     ],
-    slug: "wellbeing-60",
+    slug: "guided-wellbeing-plus",
   },
 ];
 
